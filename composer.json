@@ -10,8 +10,7 @@
         "intervention/image": "^2.4",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "socieboy/alerts": "dev-master",
-        "gd": "*"
+        "socieboy/alerts": "dev-master"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -55,7 +54,10 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
